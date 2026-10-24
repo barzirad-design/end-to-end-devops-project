@@ -1,0 +1,12 @@
+# Terraform local cache & plugins
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (Never commit to Git!)
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform variable files containing secrets
+*.tfvars
+*.tfvars.json
