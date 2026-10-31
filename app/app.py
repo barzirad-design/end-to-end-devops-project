@@ -20,7 +20,7 @@ def health():
 def version():
     return jsonify({
         "version": "1.1.0",
-        "environment": "production"
+        "environment": "production-live"
     }), 200
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
